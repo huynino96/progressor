@@ -1,7 +1,5 @@
-import base64
 from github import Github
-import sys
-
+import base64
 
 def print_repo(repo):
     # repository full name
@@ -30,15 +28,27 @@ def print_repo(repo):
         print("License:", base64.b64decode(repo.get_license().content.encode()).decode())
     except:
         pass
-    
-    
-# Github username from the command line
-username = sys.argv[1]
-# pygithub object
-g = Github()
-# get that user by username
-user = g.get_user(username)
-# iterate over all public repositories
-for repo in user.get_repos():
+
+# your github account credentials
+username = "username"
+password = "password"
+# initialize github object
+g = Github(username, password)
+# or use public version
+# g = Github()
+
+# search repositories by name
+for repo in g.search_repositories("pythoncode tutorials"):
+    # print repository details
     print_repo(repo)
     print("="*100)
+
+print("="*100)
+print("="*100)
+
+# search by programming language
+for i, repo in enumerate(g.search_repositories("language:python")):
+    print_repo(repo)
+    print("="*100)
+    if i == 9:
+        break
