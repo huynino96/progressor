@@ -1,6 +1,7 @@
 import json
 import requests
 import csv
+import base64
 
 
 # Getting data from GitHub API
@@ -10,7 +11,7 @@ users = json.loads(response.text)
 
 # print(type(users))
 # print(users)
-textList = []
+# textList = []
 for d in users:
     x = str(d["name"])
 
@@ -18,21 +19,29 @@ for d in users:
     endUrl = url.replace('{x}', x)
 
     response1 = requests.get(endUrl)
-    allText = json.loads(response1.text)
-    textList.append(allText)
+    jsonRes = response1.json()
+    content = base64.b64decode(jsonRes['content'])
+    jsonString = content.decode('utf-8')
 
-# strText = str(textList)
+    print(jsonString)
+
+    # allText = json.loads(jsonString)
+    # textList.append(allText)
 
 
-# f = open("loc.txt", "x")
-# f = open("loc.txt", "w")
-# f.write(strText)
-# f.close
+# print(textList)
+strText = str(jsonString)
 
-f = open("loc.csv", "w")
-with f:
 
-    writer = csv.writer(f)
-    
-    for row in textList:
-        writer.writerow(row)
+f = open("loc.txt", "x")
+f = open("loc.txt", "w")
+f.write(strText)
+f.close
+
+# f = open("loc.csv", "w")
+# with f:
+
+#     writer = csv.writer(f)
+
+#     for row in textList:
+#         writer.writerow(row)
