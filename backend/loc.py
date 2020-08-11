@@ -1,5 +1,6 @@
 import json
 import requests
+import csv
 
 
 # Getting data from GitHub API
@@ -20,10 +21,18 @@ for d in users:
     allText = json.loads(response1.text)
     textList.append(allText)
 
-strText = str(textList)
+# strText = str(textList)
 
 
-f = open("loc.txt", "x")
-f = open("loc.txt", "w")
-f.write(strText)
-f.close
+# f = open("loc.txt", "x")
+# f = open("loc.txt", "w")
+# f.write(strText)
+# f.close
+
+f = open("loc.csv", "w")
+with f:
+
+    writer = csv.writer(f)
+    
+    for row in textList:
+        writer.writerow(row)
