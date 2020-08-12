@@ -5,38 +5,45 @@ import base64
 
 
 # Getting data from GitHub API
-response = requests.get("https://api.github.com/repos/andris9/fetch/contents")
+response = requests.get("https://api.github.com/repos/github/fetch/contents")
 # print(response)
 users = json.loads(response.text)
 
+# https://stackoverflow.com/questions/26881441/can-you-get-the-number-of-lines-of-code-from-a-github-repository
 # print(type(users))
 # print(users)
-# textList = []
+textList = []
 for d in users:
     x = str(d["name"])
 
-    url = "https://api.github.com/repos/andris9/fetch/contents/{x}"
+    url = "https://api.github.com/repos/github/fetch/contents/{x}"
     endUrl = url.replace('{x}', x)
 
     response1 = requests.get(endUrl)
     jsonRes = response1.json()
-    content = base64.b64decode(jsonRes['content'])
-    jsonString = content.decode('utf-8')
+    #allText = json.loads(jsonRes)
+    textList.append(jsonRes)
 
-    print(jsonString)
+
+for word in textList:
+    print(word)
+    # content = base64.b64decode(jsonRes['content'])
+    # jsonString = content.decode('utf-8')
 
     # allText = json.loads(jsonString)
-    # textList.append(allText)
+
+
+print(textList)
 
 
 # print(textList)
-strText = str(jsonString)
+# strText = str(jsonString)
 
 
-f = open("loc.txt", "x")
-f = open("loc.txt", "w")
-f.write(strText)
-f.close
+# f = open("loc.txt", "x")
+# f = open("loc.txt", "w")
+# f.write(strText)
+# f.close
 
 # f = open("loc.csv", "w")
 # with f:
