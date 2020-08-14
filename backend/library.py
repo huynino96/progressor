@@ -28,7 +28,7 @@ response = requests.get(json_url)
 if response.status_code == requests.codes.ok:
     jsonResponse = response.json()  # the response is a JSON
     # the JSON is encoded in base 64, hence decode it
-    print(jsonResponse)
+    #print(jsonResponse)
     content = base64.b64decode(jsonResponse['content'])
     # convert the byte stream to string
     jsonString = content.decode('utf-8')
@@ -40,5 +40,5 @@ else:
 dependencies = finalJson["devDependencies"]
 
 # The lenght is the number of the libraries that have been added 
-print(len(dependencies))
+print("Numeber of libraries: " + str(len(dependencies)))
 
