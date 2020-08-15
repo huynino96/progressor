@@ -9,15 +9,17 @@ data = json.loads(response.text)
 
 
 itemList = []
+urlList = []
 
 for i in data:
     url = i["url"]
+    urlList.append(url)
         #print(url)
 
 def writeUrlToTxt():
     f = open("file.txt", "x")
     f = open("file.txt", "w")
-    f.write(url)
+    f.write(urlList)
 
 writeUrlToTxt()
 
@@ -27,10 +29,6 @@ writeUrlToTxt()
 #     response1 = requests.get(str(url))
 #     data1 = json.loads(response1.text)
 #     itemList.append(data1)
-
-
-
-
 
 fileOnly = []
 folderOnly = []
