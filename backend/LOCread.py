@@ -14,16 +14,18 @@ for i in data:
     data1 = json.loads(response1.text)
     itemList.append(data1)
 
-print(type(itemList))
 
 fileOnly = []
-
 folderOnly = []
+
+
+
 for k in itemList:
-    if k["type"] == 'file':
-        fileOnly.append(k)
-    if k["type"] == 'dir':
-        folderOnly.append(k)    
+    for j in k:
+        if j["type"] == 'file':
+            fileOnly.append(j)
+        if j["type"] == 'dir':
+            folderOnly.append(folderOnly)
 
 fileOny1 = []
 folderOnly2 = []
@@ -38,7 +40,3 @@ for seconLayerFolder in folderOnly:
 
 
 print(fileOnly)
-
-
-
-

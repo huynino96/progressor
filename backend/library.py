@@ -24,7 +24,6 @@ response = requests.get(json_url)
 
 
 
-
 if response.status_code == requests.codes.ok:
     jsonResponse = response.json()  # the response is a JSON
     # the JSON is encoded in base 64, hence decode it
