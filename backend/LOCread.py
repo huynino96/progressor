@@ -6,17 +6,31 @@ import base64
 response = requests.get("https://api.github.com/repos/visionmedia/superagent/contents")
 data = json.loads(response.text)
 
-itemList = []
-def getUrl():
-    
-    for i in data:
-        url = i["url"]
-        #print(url)
-        response1 = requests.get(str(url))
-        data1 = json.loads(response1.text)
-        itemList.append(data1)
 
-getUrl()
+
+itemList = []
+
+for i in data:
+    url = i["url"]
+        #print(url)
+
+def writeUrlToTxt():
+    f = open("file.txt", "x")
+    f = open("file.txt", "w")
+    f.write(url)
+
+writeUrlToTxt()
+
+
+    
+#  def getUrl():   
+#     response1 = requests.get(str(url))
+#     data1 = json.loads(response1.text)
+#     itemList.append(data1)
+
+
+
+
 
 fileOnly = []
 folderOnly = []
@@ -25,6 +39,7 @@ folderOnly = []
 def firstLayerCount():
     for itemIndex1 in itemList:
         for itemIndex2 in itemIndex1:
+            print(type(itemIndex2))
             if itemIndex2["type"] == 'file':
                 fileOnly.append(itemIndex2)
             if itemIndex2["type"] == 'dir':
