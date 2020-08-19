@@ -19,8 +19,11 @@ for i in data:
 def writeUrlToTxt():
     f = open("file.txt", "x")
     f = open("file.txt", "w")
-    f.write(urlList)
+    urltextList =str(f.write(str(urlList))
 
+    print(type(urltextList))
+    # urlString = str(urlInt)
+    # print(urlString.split(","))
 writeUrlToTxt()
 
 
@@ -30,33 +33,33 @@ writeUrlToTxt()
 #     data1 = json.loads(response1.text)
 #     itemList.append(data1)
 
-fileOnly = []
-folderOnly = []
+# fileOnly = []
+# folderOnly = []
 
 
-def firstLayerCount():
-    for itemIndex1 in itemList:
-        for itemIndex2 in itemIndex1:
-            print(type(itemIndex2))
-            if itemIndex2["type"] == 'file':
-                fileOnly.append(itemIndex2)
-            if itemIndex2["type"] == 'dir':
-                folderOnly.append(itemIndex2)
+# def firstLayerCount():
+#     for itemIndex1 in itemList:
+#         for itemIndex2 in itemIndex1:
+#             print(type(itemIndex2))
+#             if itemIndex2["type"] == 'file':
+#                 fileOnly.append(itemIndex2)
+#             if itemIndex2["type"] == 'dir':
+#                 folderOnly.append(itemIndex2)
 
-firstLayerCount()
+# firstLayerCount()
 
-fileOny1 = []
-folderOnly2 = []
+# fileOny1 = []
+# folderOnly2 = []
 
-def secondLayerCount():
-    for seconLayerFolder in folderOnly:
-        if seconLayerFolder["type"] == 'file':
-            fileOny1.append(seconLayerFolder)
-        if seconLayerFolder["type"] == 'dir':
-            folderOnly2.append(seconLayerFolder)
-
-
-secondLayerCount()
+# def secondLayerCount():
+#     for seconLayerFolder in folderOnly:
+#         if seconLayerFolder["type"] == 'file':
+#             fileOny1.append(seconLayerFolder)
+#         if seconLayerFolder["type"] == 'dir':
+#             folderOnly2.append(seconLayerFolder)
 
 
-print(fileOnly)
+# secondLayerCount()
+
+
+# print(fileOnly)
