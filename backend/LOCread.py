@@ -19,19 +19,29 @@ for i in data:
 def writeUrlToTxt():
     f = open("file.txt", "x")
     f = open("file.txt", "w")
-    urltextList =str(f.write(str(urlList))
+    urltextList = f.write(str(urlList))
 
-    print(type(urltextList))
-    # urlString = str(urlInt)
-    # print(urlString.split(","))
+
 writeUrlToTxt()
 
 
+
+    # urlString = str(urlInt)
+    # print(urlString.split(","))
     
-#  def getUrl():   
-#     response1 = requests.get(str(url))
-#     data1 = json.loads(response1.text)
-#     itemList.append(data1)
+def getUrl():
+    for url in urlList:
+        response1 = requests.get(str(url))
+        data1 = json.loads(response1.text)
+        itemList.append(data1)
+
+
+getUrl()
+
+
+with open('data.json', 'w', encoding='utf-8') as f:
+    json.dump(itemList, f, ensure_ascii=False, indent=4)
+
 
 # fileOnly = []
 # folderOnly = []
