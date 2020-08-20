@@ -1,4 +1,5 @@
 import json
+import requests
 """Fetch data from local files"""
 f1 = open("data.json", "r")
 file1 = f1.read()
@@ -43,21 +44,30 @@ for i2 in data2:
     else:
         dictOnly2.append(i2)
 
-dictOnlyData2 = []
-for index2 in listOnly2:
-    for j2 in index2:
-        dictOnlyData2.append(j2)
 
-totalDict2 = dictOnly2 + dictOnlyData2
-
-for k2 in totalDict2:
+for k2 in dictOnly2:
     if k2["type"] == 'file':
         fileOnly2.append(k2)
 
-
+"""List only2 fetch content"""
+urlList = []
+urlSecondList = []
+for fetchUrl in listOnly2:
+    for l in fetchUrl:
+        urlSecondLayer = l["url"]
+        urlList.append(urlSecondLayer)
+# print(urlList)
+def getUrl():
+    for urlSecondLayer in urlList: 
+        response1 = requests.get(str(urlSecondLayer))
+        secondFileData = json.loads(response1.text)
+        urlSecondList.append(secondFileData)
+getUrl()
+with open('secondLayerContent.json', 'w', encoding='utf-8') as f:
+    json.dump(urlSecondList, f, ensure_ascii=False, indent=4)
 """Count total number of files"""
-masterFile = fileOnly1 + fileOnly2
-print(len(masterFile))
+# masterFile = fileOnly1 + fileOnly2
+# print(len(masterFile))
 
-with open('masterFile.json', 'w', encoding='utf-8') as f:
-    json.dump(masterFile, f, ensure_ascii=False, indent=4)
+# with open('masterFile.json', 'w', encoding='utf-8') as f:
+#     json.dump(masterFile, f, ensure_ascii=False, indent=4)
