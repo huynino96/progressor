@@ -1,4 +1,5 @@
 import json
+import requests
 
 f = open("data.json", "r")
 file = f.read()
@@ -30,12 +31,20 @@ for i2 in totalDict:
     elif i2["type"] == 'dir':
         folderOnly.append(i2)
 
-print(folderOnly)
+urlList = []
+for i3 in folderOnly:
+    url = i3["url"]
+    # print(url)
+    urlList.append(url)
+# print(urlList)
+folderInside = []
+def getUrl():
+    for url in urlList:
+        response1 = requests.get(str(url))
+        data1 = json.loads(response1.text)
+        folderInside.append(data1)
+getUrl()
+# print((folderInside))
 
-
-
-
-
-
-
-
+with open('folderInside.json', 'w', encoding='utf-8') as f:
+    json.dump(folderInside, f, ensure_ascii=False, indent=4)

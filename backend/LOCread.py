@@ -34,8 +34,6 @@ def getUrl():
         response1 = requests.get(str(url))
         data1 = json.loads(response1.text)
         itemList.append(data1)
-
-
 getUrl()
 
 

@@ -1,0 +1,716 @@
+[
+    [
+        {
+            "name": "bg.png",
+            "path": "docs/images/bg.png",
+            "sha": "ca3d2679cd62c18b0f30e1d5ad006d37ffd7ba12",
+            "size": 8856,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/docs/images/bg.png?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/docs/images/bg.png",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/ca3d2679cd62c18b0f30e1d5ad006d37ffd7ba12",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/docs/images/bg.png",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/docs/images/bg.png?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/ca3d2679cd62c18b0f30e1d5ad006d37ffd7ba12",
+                "html": "https://github.com/visionmedia/superagent/blob/master/docs/images/bg.png"
+            }
+        }
+    ],
+    [
+        {
+            "name": "agent.js",
+            "path": "src/node/agent.js",
+            "sha": "22d343c1abb70d33b5ea2eebf2bf98dc6b4a6730",
+            "size": 2157,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/src/node/agent.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/src/node/agent.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/22d343c1abb70d33b5ea2eebf2bf98dc6b4a6730",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/src/node/agent.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/src/node/agent.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/22d343c1abb70d33b5ea2eebf2bf98dc6b4a6730",
+                "html": "https://github.com/visionmedia/superagent/blob/master/src/node/agent.js"
+            }
+        },
+        {
+            "name": "http2wrapper.js",
+            "path": "src/node/http2wrapper.js",
+            "sha": "ba72877587038c8709d722a49d24820eeb9f543e",
+            "size": 5083,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/src/node/http2wrapper.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/src/node/http2wrapper.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/ba72877587038c8709d722a49d24820eeb9f543e",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/src/node/http2wrapper.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/src/node/http2wrapper.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/ba72877587038c8709d722a49d24820eeb9f543e",
+                "html": "https://github.com/visionmedia/superagent/blob/master/src/node/http2wrapper.js"
+            }
+        },
+        {
+            "name": "index.js",
+            "path": "src/node/index.js",
+            "sha": "14f743aaeda82f07abf6332d8ad9cd0bacc8081c",
+            "size": 32786,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/src/node/index.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/src/node/index.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/14f743aaeda82f07abf6332d8ad9cd0bacc8081c",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/src/node/index.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/src/node/index.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/14f743aaeda82f07abf6332d8ad9cd0bacc8081c",
+                "html": "https://github.com/visionmedia/superagent/blob/master/src/node/index.js"
+            }
+        },
+        {
+            "name": "parsers",
+            "path": "src/node/parsers",
+            "sha": "91271e1d312eb5f64193596d1d05e571806dbe16",
+            "size": 0,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/src/node/parsers?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/tree/master/src/node/parsers",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/trees/91271e1d312eb5f64193596d1d05e571806dbe16",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/src/node/parsers?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/trees/91271e1d312eb5f64193596d1d05e571806dbe16",
+                "html": "https://github.com/visionmedia/superagent/tree/master/src/node/parsers"
+            }
+        },
+        {
+            "name": "response.js",
+            "path": "src/node/response.js",
+            "sha": "df6d69fab56e26f6f82294c3b8334c6ec8ba9881",
+            "size": 2405,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/src/node/response.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/src/node/response.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/df6d69fab56e26f6f82294c3b8334c6ec8ba9881",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/src/node/response.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/src/node/response.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/df6d69fab56e26f6f82294c3b8334c6ec8ba9881",
+                "html": "https://github.com/visionmedia/superagent/blob/master/src/node/response.js"
+            }
+        },
+        {
+            "name": "unzip.js",
+            "path": "src/node/unzip.js",
+            "sha": "1ed38bf488ac7b7ca7972746742bbcc584e09240",
+            "size": 1527,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/src/node/unzip.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/src/node/unzip.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/1ed38bf488ac7b7ca7972746742bbcc584e09240",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/src/node/unzip.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/src/node/unzip.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/1ed38bf488ac7b7ca7972746742bbcc584e09240",
+                "html": "https://github.com/visionmedia/superagent/blob/master/src/node/unzip.js"
+            }
+        }
+    ],
+    [
+        {
+            "name": "request.js",
+            "path": "test/client/request.js",
+            "sha": "bd623f33bb131d0bf550aff3354ecd46fc56faed",
+            "size": 8278,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/client/request.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/client/request.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/bd623f33bb131d0bf550aff3354ecd46fc56faed",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/client/request.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/client/request.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/bd623f33bb131d0bf550aff3354ecd46fc56faed",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/client/request.js"
+            }
+        },
+        {
+            "name": "serialize.js",
+            "path": "test/client/serialize.js",
+            "sha": "1325b943b36a6efc61fc1450b383322b671004b1",
+            "size": 2211,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/client/serialize.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/client/serialize.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/1325b943b36a6efc61fc1450b383322b671004b1",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/client/serialize.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/client/serialize.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/1325b943b36a6efc61fc1450b383322b671004b1",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/client/serialize.js"
+            }
+        },
+        {
+            "name": "xdomain.js",
+            "path": "test/client/xdomain.js",
+            "sha": "af52f9f846f249df7bd64c2e0c88d080824786c6",
+            "size": 1553,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/client/xdomain.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/client/xdomain.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/af52f9f846f249df7bd64c2e0c88d080824786c6",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/client/xdomain.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/client/xdomain.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/af52f9f846f249df7bd64c2e0c88d080824786c6",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/client/xdomain.js"
+            }
+        }
+    ],
+    [
+        {
+            "name": "agency.js",
+            "path": "test/node/agency.js",
+            "sha": "9f87f4851e7712b422137f1a0bfeb2171e6c7cac",
+            "size": 4752,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/agency.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/agency.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/9f87f4851e7712b422137f1a0bfeb2171e6c7cac",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/agency.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/agency.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/9f87f4851e7712b422137f1a0bfeb2171e6c7cac",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/agency.js"
+            }
+        },
+        {
+            "name": "basic-auth.js",
+            "path": "test/node/basic-auth.js",
+            "sha": "3b5c2aa9a00a3b7cfcf223cebfc43448e7a44526",
+            "size": 1129,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/basic-auth.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/basic-auth.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/3b5c2aa9a00a3b7cfcf223cebfc43448e7a44526",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/basic-auth.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/basic-auth.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/3b5c2aa9a00a3b7cfcf223cebfc43448e7a44526",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/basic-auth.js"
+            }
+        },
+        {
+            "name": "basic.js",
+            "path": "test/node/basic.js",
+            "sha": "9ee372d5c8d331d95510641079df64c4489a4bc9",
+            "size": 8991,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/basic.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/basic.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/9ee372d5c8d331d95510641079df64c4489a4bc9",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/basic.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/basic.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/9ee372d5c8d331d95510641079df64c4489a4bc9",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/basic.js"
+            }
+        },
+        {
+            "name": "buffers.js",
+            "path": "test/node/buffers.js",
+            "sha": "de23515b9a979ea91ce7caded3c58c3ce1222921",
+            "size": 3151,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/buffers.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/buffers.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/de23515b9a979ea91ce7caded3c58c3ce1222921",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/buffers.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/buffers.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/de23515b9a979ea91ce7caded3c58c3ce1222921",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/buffers.js"
+            }
+        },
+        {
+            "name": "exports.js",
+            "path": "test/node/exports.js",
+            "sha": "37a954b44860b75ef1a1f9e8a3b47ef53231ebb2",
+            "size": 735,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/exports.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/exports.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/37a954b44860b75ef1a1f9e8a3b47ef53231ebb2",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/exports.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/exports.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/37a954b44860b75ef1a1f9e8a3b47ef53231ebb2",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/exports.js"
+            }
+        },
+        {
+            "name": "fixtures",
+            "path": "test/node/fixtures",
+            "sha": "a3117d43308a6516de7f10fabf6641ccc65bc162",
+            "size": 0,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/fixtures?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/tree/master/test/node/fixtures",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/trees/a3117d43308a6516de7f10fabf6641ccc65bc162",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/fixtures?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/trees/a3117d43308a6516de7f10fabf6641ccc65bc162",
+                "html": "https://github.com/visionmedia/superagent/tree/master/test/node/fixtures"
+            }
+        },
+        {
+            "name": "flags.js",
+            "path": "test/node/flags.js",
+            "sha": "6826400624ad74a3257048cd0875bd0c072fe2b4",
+            "size": 3240,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/flags.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/flags.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/6826400624ad74a3257048cd0875bd0c072fe2b4",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/flags.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/flags.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/6826400624ad74a3257048cd0875bd0c072fe2b4",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/flags.js"
+            }
+        },
+        {
+            "name": "form.js",
+            "path": "test/node/form.js",
+            "sha": "22ce22ded557d827348bb0d980b45bd1f3c29b77",
+            "size": 1209,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/form.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/form.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/22ce22ded557d827348bb0d980b45bd1f3c29b77",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/form.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/form.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/22ce22ded557d827348bb0d980b45bd1f3c29b77",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/form.js"
+            }
+        },
+        {
+            "name": "http2.js",
+            "path": "test/node/http2.js",
+            "sha": "986adc68a306857b5c49cf74a0b3d7708c9b65af",
+            "size": 831,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/http2.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/http2.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/986adc68a306857b5c49cf74a0b3d7708c9b65af",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/http2.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/http2.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/986adc68a306857b5c49cf74a0b3d7708c9b65af",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/http2.js"
+            }
+        },
+        {
+            "name": "https.js",
+            "path": "test/node/https.js",
+            "sha": "adb429b0fff608cad68ac3fc5d75e34a379f7646",
+            "size": 7021,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/https.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/https.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/adb429b0fff608cad68ac3fc5d75e34a379f7646",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/https.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/https.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/adb429b0fff608cad68ac3fc5d75e34a379f7646",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/https.js"
+            }
+        },
+        {
+            "name": "image.js",
+            "path": "test/node/image.js",
+            "sha": "3793ec015e407a6bc5897b8353ca1cd6a0a694e2",
+            "size": 1454,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/image.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/image.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/3793ec015e407a6bc5897b8353ca1cd6a0a694e2",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/image.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/image.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/3793ec015e407a6bc5897b8353ca1cd6a0a694e2",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/image.js"
+            }
+        },
+        {
+            "name": "incoming-multipart.js",
+            "path": "test/node/incoming-multipart.js",
+            "sha": "ad18fdf3a61e60db65f2d1963c1cf213c0c8dbe7",
+            "size": 1674,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/incoming-multipart.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/incoming-multipart.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/ad18fdf3a61e60db65f2d1963c1cf213c0c8dbe7",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/incoming-multipart.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/incoming-multipart.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/ad18fdf3a61e60db65f2d1963c1cf213c0c8dbe7",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/incoming-multipart.js"
+            }
+        },
+        {
+            "name": "inflate.js",
+            "path": "test/node/inflate.js",
+            "sha": "ab9b1b6e5789fce0da9f4408247a3fe1f7930360",
+            "size": 4000,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/inflate.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/inflate.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/ab9b1b6e5789fce0da9f4408247a3fe1f7930360",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/inflate.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/inflate.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/ab9b1b6e5789fce0da9f4408247a3fe1f7930360",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/inflate.js"
+            }
+        },
+        {
+            "name": "multipart.js",
+            "path": "test/node/multipart.js",
+            "sha": "6c8f8487bf7dea855f6d97ffe88c55dae0c4344c",
+            "size": 6609,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/multipart.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/multipart.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/6c8f8487bf7dea855f6d97ffe88c55dae0c4344c",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/multipart.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/multipart.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/6c8f8487bf7dea855f6d97ffe88c55dae0c4344c",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/multipart.js"
+            }
+        },
+        {
+            "name": "network-error.js",
+            "path": "test/node/network-error.js",
+            "sha": "fc355b7f68a8f5803b51dd1bba2092643e819bbc",
+            "size": 760,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/network-error.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/network-error.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/fc355b7f68a8f5803b51dd1bba2092643e819bbc",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/network-error.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/network-error.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/fc355b7f68a8f5803b51dd1bba2092643e819bbc",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/network-error.js"
+            }
+        },
+        {
+            "name": "not-modified.js",
+            "path": "test/node/not-modified.js",
+            "sha": "2e26a5d9f15d9b64d98397153bd3bb91111989c3",
+            "size": 749,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/not-modified.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/not-modified.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/2e26a5d9f15d9b64d98397153bd3bb91111989c3",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/not-modified.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/not-modified.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/2e26a5d9f15d9b64d98397153bd3bb91111989c3",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/not-modified.js"
+            }
+        },
+        {
+            "name": "parsers.js",
+            "path": "test/node/parsers.js",
+            "sha": "d577cbda1ec43a7a5d8b6f001a22c98e1b8ac34d",
+            "size": 1997,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/parsers.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/parsers.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/d577cbda1ec43a7a5d8b6f001a22c98e1b8ac34d",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/parsers.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/parsers.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/d577cbda1ec43a7a5d8b6f001a22c98e1b8ac34d",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/parsers.js"
+            }
+        },
+        {
+            "name": "pipe-redirect.js",
+            "path": "test/node/pipe-redirect.js",
+            "sha": "947270a0728fbea583e99b091fc6c66b412d47e6",
+            "size": 869,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/pipe-redirect.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/pipe-redirect.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/947270a0728fbea583e99b091fc6c66b412d47e6",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/pipe-redirect.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/pipe-redirect.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/947270a0728fbea583e99b091fc6c66b412d47e6",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/pipe-redirect.js"
+            }
+        },
+        {
+            "name": "pipe.js",
+            "path": "test/node/pipe.js",
+            "sha": "2ef96679295aba4fc0297c52a0308bc584f67884",
+            "size": 3576,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/pipe.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/pipe.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/2ef96679295aba4fc0297c52a0308bc584f67884",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/pipe.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/pipe.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/2ef96679295aba4fc0297c52a0308bc584f67884",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/pipe.js"
+            }
+        },
+        {
+            "name": "query.js",
+            "path": "test/node/query.js",
+            "sha": "9a42bee1cd804761557129bddc84d776c5e58b61",
+            "size": 5409,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/query.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/query.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/9a42bee1cd804761557129bddc84d776c5e58b61",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/query.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/query.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/9a42bee1cd804761557129bddc84d776c5e58b61",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/query.js"
+            }
+        },
+        {
+            "name": "redirects-other-host.js",
+            "path": "test/node/redirects-other-host.js",
+            "sha": "ae426f638d77f5bacfbec4b674b0519ba367ad35",
+            "size": 6074,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/redirects-other-host.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/redirects-other-host.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/ae426f638d77f5bacfbec4b674b0519ba367ad35",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/redirects-other-host.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/redirects-other-host.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/ae426f638d77f5bacfbec4b674b0519ba367ad35",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/redirects-other-host.js"
+            }
+        },
+        {
+            "name": "redirects.js",
+            "path": "test/node/redirects.js",
+            "sha": "b9351ee1802d4d240ef5e4be260e02433f0c88b3",
+            "size": 9525,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/redirects.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/redirects.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/b9351ee1802d4d240ef5e4be260e02433f0c88b3",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/redirects.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/redirects.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/b9351ee1802d4d240ef5e4be260e02433f0c88b3",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/redirects.js"
+            }
+        },
+        {
+            "name": "response-readable-stream.js",
+            "path": "test/node/response-readable-stream.js",
+            "sha": "f4898d5f6cc30eb51d3b84918d4927694c43be70",
+            "size": 1355,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/response-readable-stream.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/response-readable-stream.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/f4898d5f6cc30eb51d3b84918d4927694c43be70",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/response-readable-stream.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/response-readable-stream.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/f4898d5f6cc30eb51d3b84918d4927694c43be70",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/response-readable-stream.js"
+            }
+        },
+        {
+            "name": "serialize.js",
+            "path": "test/node/serialize.js",
+            "sha": "db2650822c47bb66c13f1bd1a1c9bf90c2373294",
+            "size": 554,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/serialize.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/serialize.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/db2650822c47bb66c13f1bd1a1c9bf90c2373294",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/serialize.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/serialize.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/db2650822c47bb66c13f1bd1a1c9bf90c2373294",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/serialize.js"
+            }
+        },
+        {
+            "name": "set-host.js",
+            "path": "test/node/set-host.js",
+            "sha": "07f6f33a3ef7e0d1b2a4f198ec2f9bb42e94a1af",
+            "size": 1124,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/set-host.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/set-host.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/07f6f33a3ef7e0d1b2a4f198ec2f9bb42e94a1af",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/set-host.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/set-host.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/07f6f33a3ef7e0d1b2a4f198ec2f9bb42e94a1af",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/set-host.js"
+            }
+        },
+        {
+            "name": "toError.js",
+            "path": "test/node/toError.js",
+            "sha": "73ec2faf6ad4305c26fb042fa366af6fc8e81f48",
+            "size": 946,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/toError.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/toError.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/73ec2faf6ad4305c26fb042fa366af6fc8e81f48",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/toError.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/toError.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/73ec2faf6ad4305c26fb042fa366af6fc8e81f48",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/toError.js"
+            }
+        },
+        {
+            "name": "unix-sockets.js",
+            "path": "test/node/unix-sockets.js",
+            "sha": "aaa3030ed6bf1363979dbd339b3890657197b260",
+            "size": 3065,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/unix-sockets.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/unix-sockets.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/aaa3030ed6bf1363979dbd339b3890657197b260",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/unix-sockets.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/unix-sockets.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/aaa3030ed6bf1363979dbd339b3890657197b260",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/unix-sockets.js"
+            }
+        },
+        {
+            "name": "user-agent.js",
+            "path": "test/node/user-agent.js",
+            "sha": "104aa699f5487967898373fa4c289e3627e5cb7f",
+            "size": 371,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/user-agent.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/user-agent.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/104aa699f5487967898373fa4c289e3627e5cb7f",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/user-agent.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/user-agent.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/104aa699f5487967898373fa4c289e3627e5cb7f",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/user-agent.js"
+            }
+        },
+        {
+            "name": "utils.js",
+            "path": "test/node/utils.js",
+            "sha": "23ae2d5293fbdf8b4a153e0c7f818a1747360e1f",
+            "size": 1161,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/utils.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/node/utils.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/23ae2d5293fbdf8b4a153e0c7f818a1747360e1f",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/node/utils.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/node/utils.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/23ae2d5293fbdf8b4a153e0c7f818a1747360e1f",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/node/utils.js"
+            }
+        }
+    ],
+    [
+        {
+            "name": "blank.js",
+            "path": "test/support/blank.js",
+            "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+            "size": 0,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/support/blank.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/support/blank.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/support/blank.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/support/blank.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/support/blank.js"
+            }
+        },
+        {
+            "name": "client.js",
+            "path": "test/support/client.js",
+            "sha": "af843103e3201abe664503c0a1aa5b6437ad5e26",
+            "size": 128,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/support/client.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/support/client.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/af843103e3201abe664503c0a1aa5b6437ad5e26",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/support/client.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/support/client.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/af843103e3201abe664503c0a1aa5b6437ad5e26",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/support/client.js"
+            }
+        },
+        {
+            "name": "express",
+            "path": "test/support/express",
+            "sha": "dbf9835ca071d5cf259617c418c001f80b7cae32",
+            "size": 0,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/support/express?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/tree/master/test/support/express",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/trees/dbf9835ca071d5cf259617c418c001f80b7cae32",
+            "download_url": null,
+            "type": "dir",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/support/express?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/trees/dbf9835ca071d5cf259617c418c001f80b7cae32",
+                "html": "https://github.com/visionmedia/superagent/tree/master/test/support/express"
+            }
+        },
+        {
+            "name": "server.js",
+            "path": "test/support/server.js",
+            "sha": "a04d9cac1659dbeb68c59c259ba1727d6048346b",
+            "size": 13351,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/support/server.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/support/server.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/a04d9cac1659dbeb68c59c259ba1727d6048346b",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/support/server.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/support/server.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/a04d9cac1659dbeb68c59c259ba1727d6048346b",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/support/server.js"
+            }
+        },
+        {
+            "name": "setup.js",
+            "path": "test/support/setup.js",
+            "sha": "c6cb7397ab77428a4f7dd64f9c07a9af695cb81b",
+            "size": 293,
+            "url": "https://api.github.com/repos/visionmedia/superagent/contents/test/support/setup.js?ref=master",
+            "html_url": "https://github.com/visionmedia/superagent/blob/master/test/support/setup.js",
+            "git_url": "https://api.github.com/repos/visionmedia/superagent/git/blobs/c6cb7397ab77428a4f7dd64f9c07a9af695cb81b",
+            "download_url": "https://raw.githubusercontent.com/visionmedia/superagent/master/test/support/setup.js",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/visionmedia/superagent/contents/test/support/setup.js?ref=master",
+                "git": "https://api.github.com/repos/visionmedia/superagent/git/blobs/c6cb7397ab77428a4f7dd64f9c07a9af695cb81b",
+                "html": "https://github.com/visionmedia/superagent/blob/master/test/support/setup.js"
+            }
+        }
+    ]
+]
