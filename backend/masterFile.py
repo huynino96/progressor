@@ -63,11 +63,15 @@ def getUrl():
         secondFileData = json.loads(response1.text)
         urlSecondList.append(secondFileData)
 getUrl()
-with open('secondLayerContent.json', 'w', encoding='utf-8') as f:
-    json.dump(urlSecondList, f, ensure_ascii=False, indent=4)
-"""Count total number of files"""
-# masterFile = fileOnly1 + fileOnly2
-# print(len(masterFile))
+# with open('secondLayerContent.json', 'w', encoding='utf-8') as f:
+#     json.dump(urlSecondList, f, ensure_ascii=False, indent=4)
+f3 = open("secondLayerFileDetail.json", "r")
+file3 = f1.read()
+data3 = json.loads(file1)
 
-# with open('masterFile.json', 'w', encoding='utf-8') as f:
-#     json.dump(masterFile, f, ensure_ascii=False, indent=4)
+"""Count total number of files"""
+masterFile = fileOnly1 + fileOnly2 + data3
+print(len(masterFile))
+
+with open('masterFile.json', 'w', encoding='utf-8') as f:
+    json.dump(masterFile, f, ensure_ascii=False, indent=4)
