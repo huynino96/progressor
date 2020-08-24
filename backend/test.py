@@ -14,7 +14,7 @@ def getList():
         else:
             fileOnly.append(i)
 
-getList
+getList()
 
 urlList = []
 def getUrl():
@@ -27,9 +27,14 @@ getUrl()
 
 
 fileData = []
+def getFile():
+    for url in urlList:
+        response = requests.get(str(url))
+        data = json.loads(response.text)
+        fileData.append(data)
 
-for url in urlList:
-    response = requests.get(str(url))
-    data = json.loads(response)
-    fileData.append(data)
+getFile()
 
+masterFile1 = fileOnly +fileData
+with open('newMasterFile.json', 'w', encoding='utf-8') as f:
+    json.dump(masterFile1, f, ensure_ascii=False, indent=4)

@@ -65,7 +65,7 @@ def getUrl():
 getUrl()
 # with open('secondLayerContent.json', 'w', encoding='utf-8') as f:
 #     json.dump(urlSecondList, f, ensure_ascii=False, indent=4)
-f3 = open("secondLayerFileDetail.json", "r")
+f3 = open("secondLayerFileContent.json", "r")
 file3 = f1.read()
 data3 = json.loads(file1)
 
