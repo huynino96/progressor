@@ -73,5 +73,5 @@ data3 = json.loads(file1)
 masterFile = fileOnly1 + fileOnly2 + data3
 print(len(masterFile))
 
-with open('masterFile.json', 'w', encoding='utf-8') as f:
-    json.dump(masterFile, f, ensure_ascii=False, indent=4)
+# with open('masterFile.json', 'w', encoding='utf-8') as f:
+#     json.dump(masterFile, f, ensure_ascii=False, indent=4)
