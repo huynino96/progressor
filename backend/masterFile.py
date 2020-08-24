@@ -57,21 +57,23 @@ for fetchUrl in listOnly2:
         urlSecondLayer = l["url"]
         urlList.append(urlSecondLayer)
 # print(urlList)
-def getUrl():
-    for urlSecondLayer in urlList: 
-        response1 = requests.get(str(urlSecondLayer))
-        secondFileData = json.loads(response1.text)
-        urlSecondList.append(secondFileData)
-getUrl()
+# def getUrl():
+#     for urlSecondLayer in urlList: 
+#         response1 = requests.get(str(urlSecondLayer))
+#         secondFileData = json.loads(response1.text)
+#         urlSecondList.append(secondFileData)
+# getUrl()
 # with open('secondLayerContent.json', 'w', encoding='utf-8') as f:
 #     json.dump(urlSecondList, f, ensure_ascii=False, indent=4)
-f3 = open("secondLayerFileContent.json", "r")
-file3 = f1.read()
-data3 = json.loads(file1)
+f3 = open("secondLayerContent.json", "r")
+file3 = f3.read()
+data3 = json.loads(file3)
+
 
 """Count total number of files"""
 masterFile = fileOnly1 + fileOnly2 + data3
 print(len(masterFile))
-
+# for i in data3:
+#     print(type(i))
 # with open('masterFile.json', 'w', encoding='utf-8') as f:
 #     json.dump(masterFile, f, ensure_ascii=False, indent=4)
