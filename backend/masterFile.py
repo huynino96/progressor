@@ -35,10 +35,26 @@ def getUrl():
         response1 = requests.get(str(url1))
         fileData = json.loads(response1.text)
         urlFirstList.append(fileData)
-getUrl()
-print(type(urlFirstList))
+# getUrl()
 
-totalDict1 = dictOnly1 + urlFirstList
+# with open('firstLayer.json', 'w', encoding='utf-8') as f:
+#     json.dump(urlFirstList, f, ensure_ascii=False, indent=4)
+
+f4 = open("firstLayer.json", "r")
+file4 = f4.read()
+data4 = json.loads(file4)
+
+list2 = []
+dict2 = []
+for i5 in data4:
+    if isinstance(i5, list):
+        list2.append(i5)
+    else:
+        dict2.append(i5)
+
+totalDict1 = dictOnly1 + dict2
+
+
 
 for k1 in totalDict1:
     if k1["type"] == 'file':
