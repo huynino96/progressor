@@ -19,13 +19,26 @@ for i1 in data1:
         listOnly1.append(i1)
     else:
         dictOnly1.append(i1)
-
+# print(dictOnly1)
 dictOnlyData1 = []
+urlDict1 = []
+urlFirstList = []
 for index1 in listOnly1:
     for j1 in index1:
         dictOnlyData1.append(j1)
 
-totalDict1 = dictOnly1 + dictOnlyData1
+for fetchUrl in dictOnlyData1:
+    url1 = fetchUrl["url"]
+    urlDict1.append(url1)
+def getUrl():
+    for url1 in urlDict1: 
+        response1 = requests.get(str(url1))
+        fileData = json.loads(response1.text)
+        urlFirstList.append(fileData)
+getUrl()
+print(type(urlFirstList))
+
+totalDict1 = dictOnly1 + urlFirstList
 
 for k1 in totalDict1:
     if k1["type"] == 'file':
@@ -52,8 +65,8 @@ for k2 in dictOnly2:
 """List only2 fetch content"""
 urlList = []
 urlSecondList = []
-for fetchUrl in listOnly2:
-    for l in fetchUrl:
+for fetchUrl2 in listOnly2:
+    for l in fetchUrl2:
         urlSecondLayer = l["url"]
         urlList.append(urlSecondLayer)
 # print(urlList)
@@ -73,7 +86,7 @@ data3 = json.loads(file3)
 """Count total number of files"""
 masterFile = fileOnly1 + fileOnly2 + data3
 print(len(masterFile))
-# for i in data3:
+# for i in fileOnly1:
 #     print(type(i))
-# with open('masterFile.json', 'w', encoding='utf-8') as f:
-#     json.dump(masterFile, f, ensure_ascii=False, indent=4)
+with open('masterFile.json', 'w', encoding='utf-8') as f:
+    json.dump(masterFile, f, ensure_ascii=False, indent=4)
