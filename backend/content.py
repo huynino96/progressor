@@ -8,6 +8,7 @@ contentList = []
 
 
 for i in data:    
-    if "content" in data:
+        if i2["type"] == 'content':
+        fileOnly.append(i2)
         
        
