@@ -8,6 +8,8 @@ contentList = []
 
 
 for i in data:    
-    if "content" in data:
+        if i2["type"] == 'content':
+        contentList.append(i2)
         
        
+# print(contentList)
