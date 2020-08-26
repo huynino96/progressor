@@ -9,6 +9,7 @@ contentList = []
 
 for i in data:    
         if i2["type"] == 'content':
-        fileOnly.append(i2)
+        contentList.append(i2)
         
        
+# print(contentList)
