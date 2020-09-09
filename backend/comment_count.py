@@ -1,5 +1,7 @@
+import constants
+
 """Fetch data from local files"""
-f1 = open("allFile.txt", "r")
+f1 = open(constants.INPUT_FOLDER + "/allFile.txt", "r")
 file1 = f1.read()
 
 substr = "// "
