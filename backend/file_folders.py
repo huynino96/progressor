@@ -1,10 +1,10 @@
 import json
 import requests
+import constants
 from marshmallow import Schema, fields
 
 # Getting data from GitHub API
-response = requests.get(
-    "https://api.github.com/repos/visionmedia/superagent/contents")
+response = requests.get(constants.CONTENT_URL)
 data = json.loads(response.text)
 # strDict = str(users)
 

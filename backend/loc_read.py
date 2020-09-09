@@ -1,11 +1,11 @@
 import json
 import requests
 import base64
+import constants
 
 # Getting data from GitHub API
-response = requests.get("https://api.github.com/repos/visionmedia/superagent/contents")
+response = requests.get(constants.CONTENT_URL)
 data = json.loads(response.text)
-
 
 
 itemList = []
@@ -14,30 +14,32 @@ urlList = []
 for i in data:
     url = i["url"]
     urlList.append(url)
-        #print(url)
+    # print(url)
+
 
 def writeUrlToTxt():
-    f = open("file.txt", "x")
-    f = open("file.txt", "w")
+    f = open(constants.INPUT_FOLDER + "/file.txt", "x")
+    f = open(constants.INPUT_FOLDER + "/file.txt", "w")
     urltextList = f.write(str(urlList))
 
 
 writeUrlToTxt()
 
+# urlString = str(urlInt)
+# print(urlString.split(","))
 
 
-    # urlString = str(urlInt)
-    # print(urlString.split(","))
-    
 def getUrl():
     for url in urlList:
         response1 = requests.get(str(url))
         data1 = json.loads(response1.text)
         itemList.append(data1)
+
+
 getUrl()
 
 
-with open('data.json', 'w', encoding='utf-8') as f:
+with open(constants.OUTPUT_FOLDER + '/data.json', 'w', encoding='utf-8') as f:
     json.dump(itemList, f, ensure_ascii=False, indent=4)
 
 

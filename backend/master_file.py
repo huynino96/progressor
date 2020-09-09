@@ -1,11 +1,13 @@
 import json
 import requests
+import constants
+
 """Fetch data from local files"""
-f1 = open("data.json", "r")
+f1 = open(constants.INPUT_FOLDER + "/data.json", "r")
 file1 = f1.read()
 data1 = json.loads(file1)
 
-f2 = open("secondLayerFileDetail.json", "r")
+f2 = open(constants.INPUT_FOLDER + "/secondLayerFileDetail.json", "r")
 file2 = f2.read()
 data2 = json.loads(file2)
 # print(data1)
@@ -30,17 +32,21 @@ for index1 in listOnly1:
 for fetchUrl in dictOnlyData1:
     url1 = fetchUrl["url"]
     urlDict1.append(url1)
+
+
 def getUrl():
-    for url1 in urlDict1: 
+    for url1 in urlDict1:
         response1 = requests.get(str(url1))
         fileData = json.loads(response1.text)
         urlFirstList.append(fileData)
+
+
 getUrl()
 
-with open('firstLayer.json', 'w', encoding='utf-8') as f:
+with open(constants.INPUT_FOLDER + '/firstLayer.json', 'w', encoding='utf-8') as f:
     json.dump(urlFirstList, f, ensure_ascii=False, indent=4)
 
-f4 = open("firstLayer.json", "r")
+f4 = open(constants.INPUT_FOLDER + "/firstLayer.json", "r")
 file4 = f4.read()
 data4 = json.loads(file4)
 
@@ -85,14 +91,14 @@ for fetchUrl2 in listOnly2:
         urlList.append(urlSecondLayer)
 # print(urlList)
 # def getUrl():
-#     for urlSecondLayer in urlList: 
+#     for urlSecondLayer in urlList:
 #         response1 = requests.get(str(urlSecondLayer))
 #         secondFileData = json.loads(response1.text)
 #         urlSecondList.append(secondFileData)
 # getUrl()
 # with open('secondLayerContent.json', 'w', encoding='utf-8') as f:
 #     json.dump(urlSecondList, f, ensure_ascii=False, indent=4)
-f3 = open("secondLayerContent.json", "r")
+f3 = open(constants.INPUT_FOLDER + "/secondLayerContent.json", "r")
 file3 = f3.read()
 data3 = json.loads(file3)
 
@@ -102,5 +108,5 @@ masterFile = fileOnly1 + fileOnly2 + data3
 print(len(masterFile))
 # for i in fileOnly1:
 #     print(type(i))
-with open('masterFile.json', 'w', encoding='utf-8') as f:
+with open(constants.INPUT_FOLDER + '/masterFile.json', 'w', encoding='utf-8') as f:
     json.dump(masterFile, f, ensure_ascii=False, indent=4)

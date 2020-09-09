@@ -1,8 +1,11 @@
-f = open("loc.txt", "r")
+import constants
+
+f = open(constants.INPUT_FOLDER + "/loc.txt", "r")
 
 strFile = f.read()
 
-#print(strFile)
+# print(strFile)
+
 
 def countLoc():
     substring = str("\\n")
@@ -10,5 +13,6 @@ def countLoc():
     newLineCounter = strFile.count(substring)
     lineOfCode = newLineCounter * 2
     print(lineOfCode)
+
 
 countLoc()

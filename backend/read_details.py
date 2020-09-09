@@ -1,7 +1,8 @@
 import json
 import requests
+import constants
 
-f = open("data.json", "r")
+f = open(constants.INPUT_FOLDER + "/data.json", "r")
 file = f.read()
 data = json.loads(file)
 
@@ -38,13 +39,17 @@ for i3 in folderOnly:
     urlList.append(url)
 # print(urlList)
 folderInside = []
+
+
 def getUrl():
     for url in urlList:
         response1 = requests.get(str(url))
         data1 = json.loads(response1.text)
         folderInside.append(data1)
+
+
 getUrl()
 # print((folderInside))
 
-with open('folderInside.json', 'w', encoding='utf-8') as f:
+with open(constants.INPUT_FOLDER + '/folderInside.json', 'w', encoding='utf-8') as f:
     json.dump(folderInside, f, ensure_ascii=False, indent=4)

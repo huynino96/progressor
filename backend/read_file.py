@@ -1,31 +1,37 @@
 import json
 import requests
+import constants
 
-f = open("file.txt", "r")
-file=f.read()
+f = open(constants.INPUT_FOLDER + "/file.txt", "r")
+file = f.read()
 fileStri = file[1:-1]
-fileString = fileStri.replace("\'","")
+fileString = fileStri.replace("\'", "")
 # print(fileString)
 fileList = fileString.split(",")
 # print(fileList)
 itemList = []
+
+
 def getUrl():
-    for url in fileList: 
+    for url in fileList:
         response = requests.get(url)
         data1 = json.loads(response.text)
         # print(data1)
         itemList.append(data1)
+
+
 getUrl()
 
 
 def writeUrlToTxt():
-    f = open("fileDetail.txt", "x")
-    f = open("fileDetail.txt", "w")
-    detailTextList =f.write(str(itemList))
+    f = open(constants.INPUT_FOLDER + "/fileDetail.txt", "x")
+    f = open(constants.INPUT_FOLDER + "/fileDetail.txt", "w")
+    detailTextList = f.write(str(itemList))
 
     print(type(detailTextList))
     # urlString = str(urlInt)
     # print(urlString.split(","))
+
 
 fileOnly = []
 folderOnly = []
@@ -40,10 +46,12 @@ def firstLayerCount():
             if itemIndex2["type"] == 'dir':
                 folderOnly.append(itemIndex2)
 
+
 firstLayerCount()
 
 fileOny1 = []
 folderOnly2 = []
+
 
 def secondLayerCount():
     for secondLayerFolder in folderOnly:
@@ -58,6 +66,8 @@ secondLayerCount()
 
 fileOny2 = []
 folderOnly3 = []
+
+
 def thirdLayerCount():
     for thirdLayerFolder in folderOnly3:
         for thirdLayerFolder2 in thirdLayerFolder:
@@ -66,15 +76,19 @@ def thirdLayerCount():
             if thirdLayerFolder2["type"] == 'dir':
                 folderOnly3.append(thirdLayerFolder2)
 
-thirdLayerCount()
 
+thirdLayerCount()
 
 
 masterFile = fileOnly + fileOny1 + fileOny2
 
 print(masterFile)
+
+
 def writeMasterFile():
-    f = open("masterFile.txt", "x")
-    f = open("masterFile.txt", "w")
-    detailTextList =f.write(str(masterFile))
+    f = open(constants.INPUT_FOLDER + "/masterFile.txt", "x")
+    f = open(constants.INPUT_FOLDER + "/masterFile.txt", "w")
+    detailTextList = f.write(str(masterFile))
+
+
 writeMasterFile()
