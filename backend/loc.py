@@ -4,6 +4,7 @@ import csv
 import base64
 import datetime
 import constants
+import os
 
 
 # Getting data from GitHub API
@@ -17,7 +18,16 @@ for result in results:
 
 today = datetime.datetime.now()
 
-with open(constants.OUTPUT_FOLDER + '/loc.csv', 'w', newline='') as file:
+# File CSV
+filePath = constants.OUTPUT_FOLDER + '/loc.csv'
+fileEmpty = True
+try:
+    fileEmpty = os.stat(filePath).st_size == 0
+except:
+    fileEmpty = True
+
+with open(filePath, 'a', newline='') as file:
     writer = csv.writer(file)
-    writer.writerow(["Date", "Total line of Code"])
+    if fileEmpty:
+        writer.writerow(["Date", "Total line of Code"])
     writer.writerow([today.strftime('%x %X'), str(total)])

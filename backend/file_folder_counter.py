@@ -3,6 +3,7 @@ import requests
 import csv
 import datetime
 import constants
+import os.path
 
 # Getting data from GitHub API
 response = requests.get(constants.CONTENT_URL)
@@ -41,14 +42,33 @@ print("Number of folders: " + str(totalFolders))
 
 today = datetime.datetime.now()
 
+
+# File CSV
+filePath = constants.OUTPUT_FOLDER + '/files.csv'
+fileEmpty = True
+try:
+    fileEmpty = os.stat(filePath).st_size == 0
+except:
+    fileEmpty = True
+
+# Folder CSV
+folderPath = constants.OUTPUT_FOLDER + '/folders.csv'
+folderEmpty = True
+try:
+    folderEmpty = os.stat(folderPath).st_size == 0
+except:
+    folderEmpty = True
+
 # The lenght is the number of the libraries that have been added
-with open(constants.OUTPUT_FOLDER + '/files.csv', 'w', newline='') as file:
+with open(filePath, 'a', newline='') as file:
     writer = csv.writer(file)
-    writer.writerow(["Date", "Number of files"])
+    if fileEmpty:
+        writer.writerow(["Date", "Number of files"])
     writer.writerow([today.strftime('%x %X'), str(totalFiles)])
 
 # The lenght is the number of the libraries that have been added
-with open(constants.OUTPUT_FOLDER + '/folders.csv', 'w', newline='') as file:
+with open(folderPath, 'a', newline='') as file:
     writer = csv.writer(file)
-    writer.writerow(["Date", "Number of folders"])
+    if folderEmpty:
+        writer.writerow(["Date", "Number of folders"])
     writer.writerow([today.strftime('%x %X'), str(totalFolders)])
