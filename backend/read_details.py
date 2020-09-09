@@ -42,6 +42,7 @@ folderInside = []
 
 
 def getUrl():
+    ''' get url of responding text '''
     for url in urlList:
         response1 = requests.get(str(url))
         data1 = json.loads(response1.text)

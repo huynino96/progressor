@@ -5,26 +5,8 @@ import csv
 import datetime
 import constants
 
-
-# API endpoint
-def constructURL(user="404", repoName="404", pathToFile="404", url="404"):
-    url = url.replace("{user}", user)
-    url = url.replace("{repo_name}", repoName)
-    url = url.replace("{path_to_file}", pathToFile)
-    return url
-
-
-user = 'github'
-repoName = 'fetch'
-pathToFile = 'package.json'
-jsonUrl = constants.PACKAGE_URL
-
-# forms the correct URL
-json_url = constructURL(user, repoName, pathToFile, jsonUrl)
-
 # get data from json file located at specified URL
-response = requests.get(json_url)
-
+response = requests.get(constants.PACKAGE_URL)
 
 if response.status_code == requests.codes.ok:
     jsonResponse = response.json()  # the response is a JSON

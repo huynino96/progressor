@@ -23,14 +23,14 @@ print(result)
 
 
 def countFile():
-    # Counting number of Files
+    ''' Counting number of files '''
     strFile = "\'file\'"
     fileCounter = strDict.count(strFile)
     print("Number of Files: ", fileCounter)
 
 
 def countFolder():
-    # Counting nuber of Folders
+    ''' Counting nuber of folders '''
     strFolder = "\'dir\'"
     folderCounter = strFolder.count(strFolder)
     print("Number of Folders: ", folderCounter)

@@ -16,6 +16,7 @@ urlSecondList = []
 
 
 def getUrl():
+    ''' get url of second plauyer '''
     for urlSecondLayer in urlList:
         response1 = requests.get(str(urlSecondLayer))
         data = json.loads(response1.text)

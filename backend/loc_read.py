@@ -18,6 +18,7 @@ for i in data:
 
 
 def writeUrlToTxt():
+    ''' Write url to text file '''
     f = open(constants.INPUT_FOLDER + "/file.txt", "x")
     f = open(constants.INPUT_FOLDER + "/file.txt", "w")
     urltextList = f.write(str(urlList))
@@ -30,6 +31,7 @@ writeUrlToTxt()
 
 
 def getUrl():
+    ''' Get url of responding '''
     for url in urlList:
         response1 = requests.get(str(url))
         data1 = json.loads(response1.text)

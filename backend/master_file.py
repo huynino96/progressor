@@ -35,6 +35,7 @@ for fetchUrl in dictOnlyData1:
 
 
 def getUrl():
+    ''' get url of first layer '''
     for url1 in urlDict1:
         response1 = requests.get(str(url1))
         fileData = json.loads(response1.text)

@@ -24,6 +24,7 @@ getUrl()
 
 
 def writeUrlToTxt():
+    ''' Write url into text file '''
     f = open(constants.INPUT_FOLDER + "/fileDetail.txt", "x")
     f = open(constants.INPUT_FOLDER + "/fileDetail.txt", "w")
     detailTextList = f.write(str(itemList))
@@ -38,6 +39,7 @@ folderOnly = []
 
 
 def firstLayerCount():
+    ''' Count first player of dir and file '''
     for itemIndex1 in itemList:
         for itemIndex2 in itemIndex1:
             print(type(itemIndex2))
@@ -54,6 +56,7 @@ folderOnly2 = []
 
 
 def secondLayerCount():
+    ''' Count second player of dir and file '''
     for secondLayerFolder in folderOnly:
         for secondLayerFolder2 in secondLayerFolder:
             if secondLayerFolder2["type"] == 'file':
@@ -69,6 +72,7 @@ folderOnly3 = []
 
 
 def thirdLayerCount():
+    ''' Count third player of dir and file '''
     for thirdLayerFolder in folderOnly3:
         for thirdLayerFolder2 in thirdLayerFolder:
             if thirdLayerFolder2["type"] == 'file':
@@ -86,6 +90,7 @@ print(masterFile)
 
 
 def writeMasterFile():
+    ''' Write master file '''
     f = open(constants.INPUT_FOLDER + "/masterFile.txt", "x")
     f = open(constants.INPUT_FOLDER + "/masterFile.txt", "w")
     detailTextList = f.write(str(masterFile))

@@ -8,6 +8,7 @@ strFile = f.read()
 
 
 def countLoc():
+    ''' count line of code '''
     substring = str("\\n")
     print(substring)
     newLineCounter = strFile.count(substring)
