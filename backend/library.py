@@ -19,7 +19,9 @@ finalJson = json.loads(jsonString)
 
 # Use only the DevDependencies
 dependencies = finalJson["devDependencies"]
-numLibrary = len(dependencies)
+dependencies1 = finalJson["dependencies"]
+totalDependencies = len(dependencies) + len(dependencies1)
+numLibrary = totalDependencies
 
 today = datetime.datetime.now()
 
