@@ -1,6 +1,0 @@
-API_URL = 'https://api.github.com/repos/visionmedia/superagent'
-CONTENT_URL = API_URL + '/contents'
-PACKAGE_URL = API_URL + '/contents/package.json'
-STATS_CONTRIBUTOR_URL = API_URL + '/stats/contributors'
-INPUT_FOLDER = 'input'
-OUTPUT_FOLDER = 'output'
