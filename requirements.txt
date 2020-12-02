@@ -1,0 +1,6 @@
+Django
+djangorestframework
+pygithub
+django-cors-headers
+mysqlclient
+django-crontab
