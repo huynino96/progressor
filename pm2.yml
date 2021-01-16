@@ -1,0 +1,6 @@
+apps:
+  - script: ./manage.py
+    name: 'server'
+    args: 'runserver'
+    exec_mode: 'fork'
+    exec_interpreter: 'python3'

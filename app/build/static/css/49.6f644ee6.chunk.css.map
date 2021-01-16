@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.module.scss"],"names":[],"mappings":"AAEA,oBACE,4BAA8B,CADhC,oCAGI,yBAA2B","file":"49.6f644ee6.chunk.css","sourcesContent":["@import 'components/mixins.scss';\n\n.table {\n  white-space: nowrap !important;\n  :global(.ant-table-body) {\n    overflow-x: auto !important;\n  }\n}\n"]}
