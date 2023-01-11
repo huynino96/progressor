@@ -48,7 +48,7 @@
     "firebase": "^7.19.1",
     "history": "^4.10.1",
     "js-cookie": "^2.2.1",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "lodash": "^4.17.20",
     "moment": "2.27.0",
     "nprogress": "^0.2.0",
